@@ -1,3 +1,5 @@
+const package = require('./package');
+
 module.exports = {
   /**
    * Application configuration section
@@ -5,7 +7,7 @@ module.exports = {
    */
   apps : [
     {
-      name      : 'mva',
+      name      : package.name,
       script    : './app.js',
       watch     : true,
       ignore_watch: ["node_modules", ".git"],
