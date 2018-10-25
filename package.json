@@ -1,6 +1,6 @@
 {
   "name": "mva",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -11,12 +11,14 @@
   "author": "Bertrand Fan <bertrand@fan.net>",
   "license": "ISC",
   "dependencies": {
-    "@slack/client": "^3.14.1",
-    "body-parser": "^1.18.2",
-    "config": "^1.27.0",
-    "express": "^4.16.2",
+    "@slack/client": "^4.8.0",
+    "@slack/events-api": "^2.1.1",
+    "body-parser": "^1.18.3",
+    "config": "^2.0.1",
+    "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
-    "oauth": "^0.9.15",
+    "express-promise-router": "^3.0.3",
+    "request": "^2.88.0",
     "request-promise-native": "^1.0.5"
   }
 }
