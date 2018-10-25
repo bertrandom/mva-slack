@@ -16,6 +16,8 @@ app.enable('view cache');
 
 app.use(express.static('static'));
 
+app.locals.config = config;
+
 mountRoutes(app);
 
 app.use(function (err, req, res, next) {
